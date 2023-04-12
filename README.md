@@ -1,6 +1,6 @@
 # Cooked.nvim
 
-This is a cooked or prepared configuration of vim. The main focus of this configuration dedicated to python developers who are using machine learning libraries.
+This is a cooked or prepared configuration of neovim. The main focus of this configuration dedicated to python developers who are using machine learning libraries.
 ## Badges
 ![maintained-yes](https://github.com/OurCodeBase/cooked.nvim/blob/48ea339cddf298bd0860aff352b68d5f7e1605b5/images/maintained-yes.png)
 ![required-neovim](https://github.com/OurCodeBase/cooked.nvim/blob/48ea339cddf298bd0860aff352b68d5f7e1605b5/images/required-neovim.png)
@@ -48,7 +48,7 @@ mv -f config ~/.config
 
 ![Shots](https://github.com/OurCodeBase/cooked.nvim/raw/main/images/vimcompatiblebuts.jpg)
 
-If you want compatible buttons ⌨️ for vim for shortcut completions then the installation code is given below 👇
+If you want compatible buttons ⌨️ for neovim for shortcut completions then the installation code is given below 👇
 
 ```bash
 wget -O "${HOME}/.termux/termux.properties" "raw.githubusercontent.com/OurCodeBase/cooked.nvim/main/termux.properties"
