@@ -9,7 +9,7 @@ This is a cooked or prepared configuration of vim. The main focus of this config
 - [@OurCodeBase](https://www.github.com/OurCodeBase)
 ## Demo
 
-![Short](https://github.com/OurCodeBase/cooked.nvim/raw/main/images/vimshowcase.jpg)
+![Short](https://github.com/OurCodeBase/cooked.nvim/raw/main/images/vim-showcase.jpg)
 
 
 ## Features
