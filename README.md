@@ -14,7 +14,7 @@ This is a cooked or prepared configuration of vim. The main focus of this config
 
 ## Features
 
-- Vundle Plugin Manager
+- [vim-plug](https://github.com/junegunn/vim-plug) Plugin Manager
 - [lightline.vim](https://github.com/itchyny/lightline.vim) statusline
 - Autopair
 - AutoComplPop and Snipmate
@@ -28,7 +28,7 @@ This is a cooked or prepared configuration of vim. The main focus of this config
 I recommend you to update [snipmate.vim](https://github.com/OurCodeBase/snipmate.vim) to get latest snippets.
 To update snipmate.vim execute the following command given below 👇 to the `Normal Mode` of your vim.
 ```vim
-:PluginUpdate snipmate.vim
+:PlugUpdate snipmate.vim
 ```
 
 ## Installation
