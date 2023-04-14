@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
-let g:netrw_dirhist_6='/data/data'
-let g:netrw_dirhist_5='/data/data/com.termux'
-let g:netrw_dirhist_4='/data/data/com.termux/files'
-let g:netrw_dirhist_3='/data/data/com.termux/files/home'
-let g:netrw_dirhist_2='/data/data/com.termux/files/home/.config'
-let g:netrw_dirhist_1='/data/data/com.termux/files/home'
