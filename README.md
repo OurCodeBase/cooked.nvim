@@ -51,6 +51,6 @@ mv -f config ~/.config
 If you want compatible buttons ⌨️ for neovim for shortcut completions then the installation code is given below 👇
 
 ```bash
-wget -O "${HOME}/.termux/termux.properties" "raw.githubusercontent.com/OurCodeBase/cooked.nvim/main/termux.properties"
+wget -O "/data/data/com.termux/files/home/.termux/termux.properties" "raw.githubusercontent.com/OurCodeBase/cooked.nvim/main/termux.properties"
 ```
 
