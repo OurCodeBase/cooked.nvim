@@ -39,7 +39,7 @@ Install cooked.nvim with following command given below
 
 ```bash
 curl -OL https://github.com/OurCodeBase/cooked.nvim/blob/main/cooked-nvim.tar.gz?raw=true
-tar -xvf cooked-nvim.tar.gz11
+tar -xvf cooked-nvim.tar.gz
 mv -f local ~/.local
 mv -f config ~/.config
 ```
