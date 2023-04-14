@@ -35,7 +35,9 @@ To update snipmate.vim execute the following command given below 👇 to the `No
 
 ## Installation
 
-Install cooked.nvim with following command given below
+Install this bootstrap before using or installing neovim
+else the folders conflicts each other.
+Install cooked.nvim with following command given below 👇
 
 ```bash
 curl -OL https://github.com/OurCodeBase/cooked.nvim/blob/main/cooked-nvim.tar.gz?raw=true
