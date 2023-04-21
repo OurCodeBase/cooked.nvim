@@ -2,9 +2,9 @@
 
 This is a cooked or prepared configuration of neovim. The main focus of this configuration dedicated to python developers who are using machine learning libraries.
 ## Badges
-![maintained-yes](https://github.com/OurCodeBase/cooked.nvim/blob/48ea339cddf298bd0860aff352b68d5f7e1605b5/images/maintained-yes.png)
-![required-neovim](https://github.com/OurCodeBase/cooked.nvim/blob/48ea339cddf298bd0860aff352b68d5f7e1605b5/images/required-neovim.png)
-![required-python](https://github.com/OurCodeBase/cooked.nvim/blob/48ea339cddf298bd0860aff352b68d5f7e1605b5/images/required-python.png)
+![maintained-yes](https://img.shields.io/badge/Maintained-Yes-teal?style=for-the-badge&logo=github)
+![required-neovim](https://img.shields.io/badge/Required-Neovim-seagreen?style=for-the-badge&logo=neovim)
+![required-python](https://img.shields.io/badge/Required-Python-blue?style=for-the-badge&logo=python)
 
 ## Authors
 
