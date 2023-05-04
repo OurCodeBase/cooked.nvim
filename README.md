@@ -19,18 +19,33 @@ This is a cooked or prepared configuration of neovim. The main focus of this con
 - [vim-plug](https://github.com/junegunn/vim-plug) Plugin Manager
 - [lightline.vim](https://github.com/itchyny/lightline.vim) statusline
 - Autopair
-- AutoComplPop and Snipmate
-- Everforest Theme 🌲
-- Syntax Highlighting
+- Autocompletion Using Buffer ✒️
+- Decreased File Size 📂
+- Language Server Protocol Integrated 🤩
+- Visual Studio Snippets Integrated 🤯
+- Optimized Everforest Theme 🌈
+- Syntax Highlighting 🎨
 - Command Line Autocompletion
-- Reduced Startup Time ⌛
 - Increased Code Beauty 😍
 
+## Optimizations
+
+- To optimise neovim, Everforest Theme 🌲 has been optimized with more features such as bold code.
+- Replaced Different Completions by Language Server Protocol, Buffer, and Snippets.
+
 ## Documentation
-I recommend you to update [snipmate.vim](https://github.com/OurCodeBase/snipmate.vim) to get latest snippets.
-To update snipmate.vim execute the following command given below 👇 to the `Normal Mode` of your vim.
+After installing a *language server*,
+If you want to register a *language server protocol* of a specific language,
+Then you have to replace `server-name` by the *name of the server* and change `filetype` by *extention of file*.
+And add this code into your `.config/init.vim`.
 ```vim
-:PlugUpdate snipmate.vim
+if executable('server-name')
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'server-name',
+        \ 'cmd': {server_info->['server-name']},
+        \ 'allowlist': ['filetype'],
+        \ })
+endif
 ```
 
 ## Installation
