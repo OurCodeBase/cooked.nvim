@@ -48,6 +48,8 @@ if executable('server-name')
 endif
 ```
 
+This is recommended that you should to visit **[vim-lsp-wiki](https://github.com/prabirshrestha/vim-lsp/wiki)** page to setup lsp servers.
+
 ## Installation
 
 Install this bootstrap before using or installing neovim
