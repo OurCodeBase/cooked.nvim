@@ -34,19 +34,10 @@ This is a cooked or prepared configuration of neovim. The main focus of this con
 - Replaced Different Completions by Language Server Protocol, Buffer, and Snippets.
 
 ## Documentation
-After installing a *language server*,
-If you want to register a *language server protocol* of a specific language,
-Then you have to replace `server-name` by the *name of the server* and change `filetype` by *extention of file*.
-And add this code into your `.config/init.vim`.
-```vim
-if executable('server-name')
-    au User lsp_setup call lsp#register_server({
-        \ 'name': 'server-name',
-        \ 'cmd': {server_info->['server-name']},
-        \ 'allowlist': ['filetype'],
-        \ })
-endif
-```
+Whenever you've entered in a file, Use `:LspInstallServer` Command to install LspServer according to your filetype. 
+
+The source of this command is **[vim-lsp-settings](https://github.com/OurCodeBase/vim-lsp-settings)**
+
 
 This is recommended that you should to visit **[vim-lsp-wiki](https://github.com/prabirshrestha/vim-lsp/wiki)** page to setup lsp servers.
 
