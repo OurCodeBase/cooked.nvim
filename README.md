@@ -34,7 +34,11 @@ This is a cooked or prepared configuration of neovim. The main focus of this con
 - Replaced Different Completions by Language Server Protocol, Buffer, and Snippets.
 
 ## Documentation
-Whenever you've entered in a file, Use `:LspInstallServer` Command to install LspServer according to your filetype. 
+Command `nvim +PlugInstall +qall` to install **[vim-lsp-settings](https://github.com/OurCodeBase/vim-lsp-settings)**.
+- **[vim-lsp-settings](https://github.com/OurCodeBase/vim-lsp-settings)** is a plugin which provides *Automatic Language Server Protocol Installations*.
+
+To install a *Language Server Protocol* enter the command `:LspInstallServer` into ***Normal Mode***.
+- **For example:** if you want to install *Python Language Server* you have to open a ***.py*** file and then insert the command in ***Normal Mode***.
 
 The source of this command is **[vim-lsp-settings](https://github.com/OurCodeBase/vim-lsp-settings)**
 
