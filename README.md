@@ -27,6 +27,8 @@ This is a cooked or prepared configuration of neovim. The main focus of this con
 - Syntax Highlighting 🎨
 - Command Line Autocompletion
 - Increased Code Beauty 😍
+- Visual Studio Shortcuts 🩳
+- NERDTree Implemented 🌴 `(CTRL+t)`
 
 ## Optimizations
 
